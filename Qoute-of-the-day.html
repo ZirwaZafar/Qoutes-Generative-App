@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quote of the Day</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      color: white;
+    }
+    .quote-box {
+      font-size: 30px;
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.5);
+      border-radius: 10px;
+      max-width: 600px;
+      margin: auto;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="quote-box" id="quote-box">
+    "Start where you are. Use what you have. Do what you can." - Arthur Ashe
+  </div>
+
+  <script>
+    const quotes = [
+      { text: "Start where you are. Use what you have. Do what you can. - Arthur Ashe", bg: "url('background1.jpg')" },
+      { text: "It does not matter how slowly you go as long as you do not stop. - Confucius", bg: "url('background2.jpg')" },
+      { text: "Success usually comes to those who are too busy to be looking for it. - Henry David Thoreau", bg: "url('background3.jpg')" },
+      { text: "The future belongs to those who believe in the beauty of their dreams. - Eleanor Roosevelt", bg: "url('background4.jpg')" }
+    ];
+
+    function changeQuote() {
+      const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+      document.getElementById("quote-box").innerText = randomQuote.text;
+      document.body.style.backgroundImage = randomQuote.bg;
+    }
+
+    // Change quote every day (or every time user visits)
+    window.onload = changeQuote;
+  </script>
+
+</body>
+</html>
