@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Inspirational Quote</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+      background-color: #f2f2f2;
+    }
+    .quote-box {
+      font-size: 24px;
+      margin-bottom: 20px;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+      width: 80%;
+      max-width: 600px;
+      margin: auto;
+    }
+    button {
+      font-size: 20px;
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="quote-box" id="quote-box">
+    "Believe you can and you're halfway there." - Theodore Roosevelt
+  </div>
+  <button onclick="showDailyQuote()">Get Your Daily Quote</button>
+
+  <script>
+    const dailyQuote = [
+      "Believe you can and you're halfway there. - Theodore Roosevelt",
+      "Your time is limited, so don't waste it living someone else's life. - Steve Jobs",
+      "The best way to predict the future is to create it. - Abraham Lincoln",
+      "Hardships often prepare ordinary people for an extraordinary destiny. - C.S. Lewis",
+      "It always seems impossible until it's done. - Nelson Mandela"
+    ];
+
+    function showDailyQuote() {
+      const quote = dailyQuote[Math.floor(Math.random() * dailyQuote.length)];
+      document.getElementById("quote-box").innerText = quote;
+    }
+  </script>
+
+</body>
+</html>
