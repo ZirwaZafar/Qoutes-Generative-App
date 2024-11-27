@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Quote Generator</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+      background-color: #f2f2f2;
+    }
+    .quote-box {
+      font-size: 24px;
+      margin-bottom: 20px;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+      width: 80%;
+      max-width: 600px;
+      margin: auto;
+    }
+    button {
+      font-size: 20px;
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="quote-box" id="quote-box">
+    "The only way to do great work is to love what you do." - Steve Jobs
+  </div>
+  <button onclick="generateQuote()">Get New Quote</button>
+
+  <script>
+    const quotes = [
+      "The only way to do great work is to love what you do. - Steve Jobs",
+      "Success is not final, failure is not fatal: It is the courage to continue that counts. - Winston Churchill",
+      "In the end, it's not the years in your life that count. It's the life in your years. - Abraham Lincoln",
+      "You must be the change you wish to see in the world. - Mahatma Gandhi",
+      "Life is what happens when you're busy making other plans. - John Lennon"
+    ];
+
+    function generateQuote() {
+      const randomIndex = Math.floor(Math.random() * quotes.length);
+      document.getElementById("quote-box").innerText = quotes[randomIndex];
+    }
+  </script>
+
+</body>
+</html>
