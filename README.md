@@ -1,18 +1,10 @@
-# AI Quiz Master 🤖🧠
+# Qoutes Generative App ✍🇵🇰
 
-Welcome to **AI Quiz Master**, a dynamic, AI-powered quiz application that challenges users with engaging questions while testing their knowledge in various domains. Get ready to test your wits and sharpen your skills! 🚀
+Welcome to **QoutesGenerativeApp**, a dynamic, Qoutes Generative application . Get ready to test your wits and sharpen your skills! 🚀
 
 ![Quiz Master Animation](https://media.giphy.com/media/3o7abKhOpu0NwenH3O/giphy.gif)  
 *An engaging quiz experience with interactive AI!*
 
----
-
-## Features ✨
-
-- **AI-Generated Questions** 🤔: Unique and challenging quizzes.
-- **Real-time Score Tracking** 📊: Keep track of your progress with live updates.
-- **Responsive Design** 📱: Enjoy a smooth experience on any device.
-- **Engaging Animations** 🌟: Fun animations for every correct and incorrect answer.
 
 ---
 
@@ -25,12 +17,7 @@ Welcome to **AI Quiz Master**, a dynamic, AI-powered quiz application that chall
 
 ---
 
-## How It Works 🧩
 
-1. **Start the Quiz**: Click the "Start Quiz" button to begin.
-2. **Answer the Questions**: Choose the correct option before time runs out.
-3. **Get Instant Feedback**: Enjoy animated feedback on your answers.
-4. **Track Your Score**: Watch your score update in real-time.
 
 ![Quiz Interface](https://via.placeholder.com/800x400?text=Quiz+Interface+Preview)
 
