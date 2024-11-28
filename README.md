@@ -2,7 +2,7 @@
 
 Welcome to **Quotes Generative App**, your source of daily inspiration! 🌟 Get fresh, motivational quotes at your fingertips with smooth animations and stunning visual effects. Whether you're looking for a quick motivational boost or a thought-provoking saying, this app delivers with elegance!
 
-![Inspirational Quote](https://media.giphy.com/media/3ohhwpOqJjyMt0mP14/giphy.gif)  
+![Inspiration Animation](https://media.giphy.com/media/3ohhwpOqJjyMt0mP14/giphy.gif)  
 *Stay inspired with every quote!*
 
 ---
