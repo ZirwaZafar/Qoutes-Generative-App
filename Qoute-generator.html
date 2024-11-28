@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Generator</title>
+    <style>
+        /* CSS Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #2c3e50;
+            transition: background-color 1s ease;
+            color: white;
+        }
+
+        .quote-box {
+            text-align: center;
+            max-width: 600px;
+            padding: 50px;
+            border-radius: 12px;
+            background: rgba(0, 0, 0, 0.5);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            transition: all 0.5s ease;
+        }
+
+        .quote-text {
+            font-size: 24px;
+            font-style: italic;
+            margin-bottom: 20px;
+        }
+
+        .quote-author {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .btn {
+            background-color: #3498db;
+            border: none;
+            padding: 15px 30px;
+            color: white;
+            font-size: 18px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #2980b9;
+        }
+
+        .animated-text {
+            animation: slideIn 2s ease-out;
+        }
+
+        @keyframes slideIn {
+            0% {
+                opacity: 0;
+                transform: translateX(-100%);
+            }
+            100% {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="quote-box">
+        <p id="quote-text" class="quote-text animated-text">"The only way to do great work is to love what you do."</p>
+        <p id="quote-author" class="quote-author">- Steve Jobs</p>
+        <button class="btn" onclick="generateQuote()">Get New Quote</button>
+    </div>
+
+    <audio id="quote-sound" src="https://www.soundjay.com/button/beep-07.wav" preload="auto"></audio>
+
+    <script>
+        // JavaScript for Random Quote Generator and Theme Change
+        const quotes = [
+            { text: '"The only way to do great work is to love what you do."', author: 'Steve Jobs', mood: 'positive' },
+            { text: '"Success is not final, failure is not fatal: It is the courage to continue that counts."', author: 'Winston Churchill', mood: 'motivational' },
+            { text: '"In the end, we will remember not the words of our enemies, but the silence of our friends."', author: 'Martin Luther King Jr.', mood: 'reflective' },
+            { text: '"It always seems impossible until it’s done."', author: 'Nelson Mandela', mood: 'inspirational' },
+            { text: '"The only limit to our realization of tomorrow is our doubts of today."', author: 'Franklin D. Roosevelt', mood: 'positive' }
+        ];
+
+        const body = document.body;
+        const quoteText = document.getElementById('quote-text');
+        const quoteAuthor = document.getElementById('quote-author');
+        const quoteSound = document.getElementById('quote-sound');
+
+        function generateQuote() {
+            const randomIndex = Math.floor(Math.random() * quotes.length);
+            const selectedQuote = quotes[randomIndex];
+
+            // Display new quote and author with animation
+            quoteText.classList.remove('animated-text');
+            quoteText.textContent = selectedQuote.text;
+            quoteAuthor.textContent = `- ${selectedQuote.author}`;
+            quoteText.classList.add('animated-text');
+
+            // Change background color based on quote mood
+            changeBackgroundColor(selectedQuote.mood);
+
+            // Play sound effect
+            quoteSound.play();
+        }
+
+        // Function to change background color based on mood
+        function changeBackgroundColor(mood) {
+            switch(mood) {
+                case 'positive':
+                    body.style.backgroundColor = '#2ecc71'; // Green
+                    break;
+                case 'motivational':
+                    body.style.backgroundColor = '#e74c3c'; // Red
+                    break;
+                case 'reflective':
+                    body.style.backgroundColor = '#9b59b6'; // Purple
+                    break;
+                case 'inspirational':
+                    body.style.backgroundColor = '#f39c12'; // Yellow
+                    break;
+                default:
+                    body.style.backgroundColor = '#2c3e50'; // Default Blue
+            }
+        }
+
+    </script>
+</body>
+</html>
