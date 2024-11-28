@@ -1,21 +1,21 @@
 # Quotes Generative App 📜✨
 
-Welcome to **Quotes Generative App**, your daily dose of inspiration and motivation! 🌟 This app generates random quotes to uplift your spirit and add positivity to your day. Built with simplicity and elegance in mind using **HTML**, **CSS**, and **JavaScript**.
+Welcome to **Quotes Generative App**, your source of daily inspiration! 🌟 Get fresh, motivational quotes at your fingertips with smooth animations and stunning visual effects. Whether you're looking for a quick motivational boost or a thought-provoking saying, this app delivers with elegance!
 
-![Inspiration Animation](https://media.giphy.com/media/xT0xem9M1Tg3dGUYI8/giphy.gif)  
-*Get inspired with every click!*
+![Inspirational Quote](https://media.giphy.com/media/3ohhwpOqJjyMt0mP14/giphy.gif)  
+*Stay inspired with every quote!*
 
 ---
 
 ## Features 🚀
 
-- **Random Quote Generation** 🔄: Enjoy fresh quotes every time you click the button.
-- **Elegant UI** 🌸: Clean, minimalistic, and visually pleasing interface.
-- **Responsive Design** 📱: Works seamlessly on desktops, tablets, and mobile devices.
-- **Smooth Animations** 🎨: Enjoy smooth transitions with each quote.
+- **Dynamic Quote Generation** 🔄: A variety of inspirational quotes generated every time.
+- **Engaging Animations** 💫: Animated transitions for a lively user experience.
+- **Responsive Design** 📱: Clean UI that adapts seamlessly across all devices.
+- **Interactive Elements** 🌸: Click, swipe, or hover to discover new quotes!
 
-![Animation Example](https://media.giphy.com/media/j5aUqHi6ajk7aXJfr8/giphy.gif)  
-*Experience smooth and sleek animations!*
+![Motivation Animation](https://media.giphy.com/media/xT0GqUzRlN8IHDfsR6/giphy.gif)  
+*Feel the energy with every new quote!*
 
 ---
 
@@ -24,6 +24,9 @@ Welcome to **Quotes Generative App**, your daily dose of inspiration and motivat
 ![HTML5](https://img.shields.io/badge/HTML5-orange?style=for-the-badge&logo=html5)
 ![CSS3](https://img.shields.io/badge/CSS3-blue?style=for-the-badge&logo=css3)
 ![JavaScript](https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript)
+
+![Code Animation](https://media.giphy.com/media/3oEdv4rPl2Rr1PvbyA/giphy.gif)  
+*Crafting elegant animations with every click!*
 
 ---
 
