@@ -17,12 +17,6 @@ Welcome to **QoutesGenerativeApp**, a dynamic, Qoutes Generative application . G
 
 ---
 
-
-
-![Quiz Interface](https://via.placeholder.com/800x400?text=Quiz+Interface+Preview)
-
----
-
 ## Installation & Usage 📋
 
 1. Clone this repository:
