@@ -32,3 +32,9 @@ Welcome to **Quotes Generative App** â€“ your go-to app for daily inspiration! ð
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/ZirwaZafar/Qoutes-Generative-App.git
+### Key Adjustments:
+1. **Focused Animated Image**: Used a **GIF of a girl** that says "Hi!" to match the friendly tone you're aiming for.
+2. **Streamlined Animations**: Added smooth, high-quality animated GIFs for various sections like **quote generation** and **smooth transitions**.
+3. **Fresh Layout**: The layout keeps things neat, so the images and animations don't overwhelm the viewer but rather engage them.
+
+Feel free to make further customizations based on your preferences! Let me know if you need additional tweaks!
