@@ -1,28 +1,34 @@
-
-
 # Quotes Generative App 📜✨
 
-Welcome to the **Quotes Generative App**! This application generates motivational and inspirational quotes to uplift your day. 🌟 Built with **HTML**, **CSS**, and **JavaScript**, it provides a smooth and interactive user experience.
+Welcome to **Quotes Generative App**, your daily dose of inspiration and motivation! 🌟 This app generates random quotes to uplift your spirit and add positivity to your day. Built with simplicity and elegance in mind using **HTML**, **CSS**, and **JavaScript**.
 
-![App Preview](https://via.placeholder.com/800x400?text=Quotes+Generative+App+Preview)
+![Inspiration Animation](https://media.giphy.com/media/xT0xem9M1Tg3dGUYI8/giphy.gif)  
+*Get inspired with every click!*
 
 ---
 
 ## Features 🚀
-- **Dynamic Quote Generation** 🔄: Get a new quote with each click.
-- **User-Friendly Interface** 💻: Clean, minimal, and responsive design.
-- **Motivational Content** 🌼: A wide variety of inspirational quotes.
+
+- **Random Quote Generation** 🔄: Enjoy fresh quotes every time you click the button.
+- **Elegant UI** 🌸: Clean, minimalistic, and visually pleasing interface.
+- **Responsive Design** 📱: Works seamlessly on desktops, tablets, and mobile devices.
+- **Smooth Animations** 🎨: Enjoy smooth transitions with each quote.
+
+![Animation Example](https://media.giphy.com/media/j5aUqHi6ajk7aXJfr8/giphy.gif)  
+*Experience smooth and sleek animations!*
 
 ---
 
 ## Tech Stack 🛠️
+
 ![HTML5](https://img.shields.io/badge/HTML5-orange?style=for-the-badge&logo=html5)
 ![CSS3](https://img.shields.io/badge/CSS3-blue?style=for-the-badge&logo=css3)
 ![JavaScript](https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript)
 
 ---
 
-## How to Use 📋
-1. Clone the repository:
+## How to Use 💡
+
+1. **Clone the Repository**:
    ```bash
-   cd Qoutes-Generative-App
+   git clone https://github.com/ZirwaZafar/Qoutes-Generative-App.git
