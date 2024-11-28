@@ -1,21 +1,22 @@
 # Quotes Generative App 📜✨
 
-Welcome to **Quotes Generative App**, your source of daily inspiration! 🌟 Get fresh, motivational quotes at your fingertips with smooth animations and stunning visual effects. Whether you're looking for a quick motivational boost or a thought-provoking saying, this app delivers with elegance!
+Welcome to the **Quotes Generative App** – your daily dose of motivation, now with friendly vibes! 👋✨  
+Get fresh, inspirational quotes with stunning animations and feel the positivity!
 
-![Inspiration Animation](https://media.giphy.com/media/3ohhwpOqJjyMt0mP14/giphy.gif)  
-*Stay inspired with every quote!*
+![Animated Girl Saying Hi](https://media.giphy.com/media/xT0GqUzRlN8IHDfsR6/giphy.gif)  
+*Say Hi to your new favorite app!*
 
 ---
 
 ## Features 🚀
 
-- **Dynamic Quote Generation** 🔄: A variety of inspirational quotes generated every time.
-- **Engaging Animations** 💫: Animated transitions for a lively user experience.
-- **Responsive Design** 📱: Clean UI that adapts seamlessly across all devices.
-- **Interactive Elements** 🌸: Click, swipe, or hover to discover new quotes!
+- **Dynamic Quote Generation** 🔄: Access an endless stream of motivational quotes.
+- **Smooth Animations** 💫: Enjoy transitions and a delightful user experience.
+- **Mobile-Friendly Design** 📱: The app adjusts seamlessly across all devices.
+- **Interactive Elements** 🌸: Engage with beautiful animations every time you swipe or click.
 
-![Motivation Animation](https://media.giphy.com/media/xT0GqUzRlN8IHDfsR6/giphy.gif)  
-*Feel the energy with every new quote!*
+![Quote Animation](https://media.giphy.com/media/3oEdv4rPl2Rr1PvbyA/giphy.gif)  
+*Every click brings a new, inspiring quote!*
 
 ---
 
@@ -24,9 +25,6 @@ Welcome to **Quotes Generative App**, your source of daily inspiration! 🌟 Get
 ![HTML5](https://img.shields.io/badge/HTML5-orange?style=for-the-badge&logo=html5)
 ![CSS3](https://img.shields.io/badge/CSS3-blue?style=for-the-badge&logo=css3)
 ![JavaScript](https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript)
-
-![Code Animation](https://media.giphy.com/media/3oEdv4rPl2Rr1PvbyA/giphy.gif)  
-*Crafting elegant animations with every click!*
 
 ---
 
